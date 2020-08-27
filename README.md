@@ -1,5 +1,7 @@
 Simplifyed fork of [https://github.com/MobileDynasty/pytest-env](https://github.com/MobileDynasty/pytest-env)
 
+I got a value like `aaaaaa{bbb}aaaaa` I wanted to put in ENV, and `pytest-env` have no way to _not_ act like it's an f-string.
+
 # pytest-envraw
 
 This is a py.test plugin that enables you to set environment variables in the pytest.ini file.
